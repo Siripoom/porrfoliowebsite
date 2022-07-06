@@ -42,4 +42,19 @@ function PageTransitions(){
     })
 }
 
+// function sendEmail(){
+//     Email.send({
+//         Host : "smtp.gmail.com",
+//         Username : "artorsiriratpoom@gmail.com",
+//         Password : "Poom>_300446",
+//         To : 'artorsiriratpoom@gmail.com',
+//         From : document.getElementById("email"),value,
+//         Subject : "New Contact form Enquiry",
+//         Body : "And this is the body"
+//     }).then(
+//       message => alert(message)
+//     );
+// }
+
+
 PageTransitions();

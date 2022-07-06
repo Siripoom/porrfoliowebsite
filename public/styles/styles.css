@@ -43,7 +43,10 @@ body {
   color: var(--color-white);
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
+  
 }
+
+
 
 a {
   display: inline-block;
@@ -111,6 +114,10 @@ section {
   -webkit-animation: scaleAnim 1s ease-in-out;
           animation: scaleAnim 1s ease-in-out;
 }
+
+
+
+
 
 @-webkit-keyframes scaleAnim {
   0% {
@@ -1284,7 +1291,8 @@ section {
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 700px) 
+{
   .section {
     padding: 7rem 3rem;
   }
@@ -1298,7 +1306,7 @@ section {
   }
   .timeline {
     -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns : repeat(1, 1fr);
   }
   .main-title h2 {
     font-size: 3rem;
@@ -1310,4 +1318,18 @@ section {
     font-size: 4rem;
   }
 }
-/*# sourceMappingURL=styles.css.map */
+
+/* form button{
+  padding: 13px;
+  border-radius: 30px;
+  background: var(--color-secondary);
+  color: var(--color-grey0);
+  font-size: 20px;
+  outline:none;
+  cursor:pointer;
+  width: 150px;
+  margin: 20px auto 0;
+  font-weight: 600;
+  position: relative;
+}
+# sourceMappingURL=styles.css.map */
